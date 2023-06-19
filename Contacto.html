@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CONTACTO</title>
+        <style>
+            body {
+                
+                margin: 0;
+                padding: 0;
+            }
+            
+            header {
+                background-color: black;
+                border-bottom: 10px solid rgb(255, 255, 255);
+                margin: 0;
+                padding: 0;
+                font-family: "Instrument Serif";
+            }
+            
+
+            nav ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                text-align: center;
+                font-size: 2vw; /* El tamaño de la fuente se ajusta al ancho de la ventana */
+            }
+            
+            nav ul li {
+                display: inline-block;
+                margin: 2vh; /* Los márgenes son proporcionales al alto de la ventana */
+                vertical-align: middle;
+            }
+            
+            nav ul li a {
+                display: block;
+                padding: 1vh 2vw; /* El padding se ajusta al alto y ancho de la ventana */
+                color: rgb(216, 196, 17);
+            }
+            
+            main {
+                padding: 2vh;
+                color: aliceblue;
+                font-family: "Instrument Serif";
+                position: relative;
+                min-height: 70vh; /* El main ocupa al menos el 70% del alto de la ventana */
+            }
+            
+            footer {
+                background-color: black;
+                padding: 2vh;
+                text-align: center;
+                color: aliceblue;
+                font-weight: bold;
+                font-family: 'Playfair Display SC';
+                position: relative;
+                min-height: 10vh; /* El footer ocupa al menos el 10% del alto de la ventana */
+            }
+            
+            .black-image {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%; /* La imagen ocupa todo el alto del main */
+                object-fit: cover; /* Ajusta la imagen para cubrir todo el espacio sin deformarse */
+                z-index: -1;
+            }
+        </style>
+    </head>
+    <body style="background: url(img/fondo.jpg); background-repeat: no-repeat; background-size: cover;">
+        <header>
+            <img style="padding: 1vh; margin: 0; position: absolute; left: 2vw; height: 100px;" src="img/violin.png">
+            <nav>
+                <ul>
+                    <li><a href="prueba.html">INICIO</a></li>
+                    <li><a href="Temas.html">TEMAS</a></li>
+                    <li><a href="Galeria.html">GALERIA</a></li>
+                    <li><a href="Nostros.html">SOBRE NOSOTROS</a></li>
+                </ul>
+            </nav>
+            </header>
+            <main>
+                <h1 style="color: rgb(216, 196, 17); text-align: center;">CONTACTANOS </h1>
+                <div style="text-align: justify;  padding-left: 5vw; padding-right: 5vw; font-size: 25px;">
+
+                    <p>
+                        Gracias por visitar nuestra página. Nos encantaría saber de ti y responder cualquier pregunta o inquietud que puedas tener. Por favor, utiliza la siguiente información de contacto o escribenos a nuestros medios de contacto para comunicarte con nosotros. ¡Estamos aquí para ayudarte!
+                    </p>
+
+                    <p>
+                        <h3>Información de contacto:</h3>
+                        
+
+                        <strong>Dirección:</strong>  Cúcuta - Norte De Santander/ Av35# La Pastora<br>
+                        <strong>Teléfonos:</strong> 3213738826 - 3115209627<br>
+                        <strong>TCorreo electrónico:</strong> MusiClasic@gmail.com<br>
+                    </p>
+
+                    <p>
+                        ¡Esperamos con ansias recibir tu mensaje y responder a la brevedad posible! Tu opinión y preguntas son importantes para nosotros. ¡Gracias por tu interés en nuestra empresa!
+                    </p>
+                    
+                    <p style="text-align: center; font-weight:bold;">
+                        Atentamente, MusiClasic.CA
+                    </p>
+                </div>
+    
+                <img src="img/Negro.png" alt="Mi imagen" height="100%" width="38px" style="position: absolute; left: 0; top: 0;">
+
+                <div style="text-align: center; padding: 10px">
+                    <audio controls loop>
+                        <source src="music/Moonlight.mp3" type="audio/mp3">
+                    </audio> 
+                </div>  
+            </main>
+    
+            <footer>
+                <p style="color: rgb(216, 196, 17);">&copy COPYRIGHT MUSICLASIC/2023.</p>
+            </footer>
+        </body>
+    </html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>INICIO</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            
+            header {
+                background-color: black;
+                border-bottom: 10px solid rgb(255, 255, 255);
+                margin: 0;
+                padding: 0;
+                font-family: "Instrument Serif";
+            }
+            
+
+            nav ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                text-align: center;
+                font-size: 2vw; /* El tamaño de la fuente se ajusta al ancho de la ventana */
+            }
+            
+            nav ul li {
+                display: inline-block;
+                margin: 2vh; /* Los márgenes son proporcionales al alto de la ventana */
+                vertical-align: middle;
+            }
+            
+            nav ul li a {
+                display: block;
+                padding: 1vh 2vw; /* El padding se ajusta al alto y ancho de la ventana */
+                color: rgb(216, 196, 17);
+            }
+            
+            main {
+                padding: 2vh;
+                color: aliceblue;
+                font-family: "Instrument Serif";
+                position: relative;
+                min-height: 70vh; /* El main ocupa al menos el 70% del alto de la ventana */
+            }
+            
+            footer {
+                background-color: black;
+                padding: 2vh;
+                text-align: center;
+                color: aliceblue;
+                font-weight: bold;
+                font-family: 'Playfair Display SC';
+                position: relative;
+                min-height: 10vh; /* El footer ocupa al menos el 10% del alto de la ventana */
+            }
+            
+            .black-image {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%; /* La imagen ocupa todo el alto del main */
+                object-fit: cover; /* Ajusta la imagen para cubrir todo el espacio sin deformarse */
+                z-index: -1;
+            }
+        </style>
+    </head>
+
+    <body style="background: url(img/fondo.jpg); background-repeat: no-repeat; background-size: cover;">
+        <header>
+            <img style="padding: 1vh; margin: 0; position: absolute; left: 2vw; height: 100px;" src="img/violin.png">
+            <nav>
+                <ul>
+                    <li><a href="Temas.html">TEMAS</a></li>
+                    <li><a href="Galeria.html">GALERIA</a></li>
+                    <li><a href="Nostros.html">SOBRE NOSOTROS</a></li>
+                    <li><a href="Contacto.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+
+            <h1 style="color: rgb(216, 196, 17); text-align: center;">¿QUE ES LA MÚSICA Y LA MÚSICA CLÁSICA?</h1>
+            <div style="text-align: justify;  padding-left: 5vw; padding-right: 5vw; font-size: 27px;">
+                <p>
+                    <strong>La música</strong> es un arte y una forma de expresión que se crea a través de la combinación de sonidos y silencios organizados en el tiempo. Es una manifestación cultural presente en todas las sociedades y tiene una gran variedad de <em>estilos, géneros y formas.</em>
+                </p>
+
+                <p>
+                    La música puede involucrar elementos como la melodía (la secuencia de notas que se perciben como una unidad), la armonía (la combinación de sonidos que suenan simultáneamente), el ritmo (la organización del tiempo y los patrones de acentuación), la dinámica (la variación en la intensidad), el timbre (la calidad del sonido producido por diferentes instrumentos o voces) y la forma (la estructura general de una composición musical).
+                </p>
+
+                <p>
+                    Además, la música tiene la capacidad de transmitir emociones, contar historias, evocar recuerdos y generar una respuesta emocional en quienes la escuchan
+                </p>
+            </div>
+
+            <div style="text-align: center;">
+                <video width="700" height="300" controls>
+                    <source src="video/MUSICA.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div style="text-align: justify;  padding-left: 5vw; padding-right: 5vw; font-size: 27px;">
+
+                <p>Antes de hablar de los instrumentos de <strong>la música clásica</strong> debemos saber un poco de contexto.</p>
+
+                <p>Le llamamos clásico a algo que ha trascendido en la historia y que ha establecido ciertos 
+                parámetros o guías para quienes siguen. Como en todo arte, la música ha tenido principios rudimentarios
+                pero ha evolucionado a través de la experimentación y la acumulación de los conocimientos y el trabajo 
+                de quiénes la han tomado como pasión u oficio.</p>
+
+                <p>Debemos mencionar que la música clásica tiene también varias épocas que tienen sus propias tendencias
+                pero si debemos establecer fechas, podríamos decir que la música clásica es la música que comienza a formarse
+                a partir de los años 1000, aunque las principales características del género se establecieron durante del
+                período del año<strong>1550 al 1900</strong> en la región de <em>Europa Occidental.</em></p>
+
+                <p>La música clásica es tan bella y grandiosa que cientos de años después aún seguimos escuchándola
+                interpretándola y estudiándola a profundidad.</p>
+
+                <p>
+                    La música clásica ha dejado un legado duradero en la historia de la música y ha sido una influencia importante en muchos otros géneros musicales. Se valora por su <em>belleza, expresividad y capacidad para transmitir emociones profundas.</em> 
+                </p>
+            </div>
+
+            
+            <img src="img/Negro.png" alt="Mi imagen" height="100%" width="38px" style="position: absolute; left: 0; top: 0;">
+
+            <div style="text-align: center; padding: 10px; padding-bottom: 30px">
+                <audio controls loop>
+                    <source src="music/Nocturne.mp3" type="audio/mp3">
+                </audio> 
+            </div>   
+        </main>
+
+        <footer>
+            <p style="color: rgb(216, 196, 17);">&copy COPYRIGHT MUSICLASIC/2023.</p>
+        </footer>
+    </body>
+</html>

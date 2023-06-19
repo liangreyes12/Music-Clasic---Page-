@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CANCIONES</title>
+        <style>
+            body {
+                
+                margin: 0;
+                padding: 0;
+            }
+            
+            header {
+                background-color: black;
+                border-bottom: 10px solid rgb(255, 255, 255);
+                margin: 0;
+                padding: 0;
+                font-family: "Instrument Serif";
+            }
+            
+
+            nav ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                text-align: center;
+                font-size: 2vw; /* El tamaño de la fuente se ajusta al ancho de la ventana */
+            }
+            
+            nav ul li {
+                display: inline-block;
+                margin: 2vh; /* Los márgenes son proporcionales al alto de la ventana */
+                vertical-align: middle;
+            }
+            
+            nav ul li a {
+                display: block;
+                padding: 1vh 2vw; /* El padding se ajusta al alto y ancho de la ventana */
+                color: rgb(216, 196, 17);
+            }
+            
+            main {
+                padding: 2vh;
+                color: aliceblue;
+                font-family: "Instrument Serif";
+                position: relative;
+                min-height: 70vh; /* El main ocupa al menos el 70% del alto de la ventana */
+            }
+            
+            footer {
+                background-color: black;
+                padding: 2vh;
+                text-align: center;
+                color: aliceblue;
+                font-weight: bold;
+                font-family: 'Playfair Display SC';
+                position: relative;
+                min-height: 10vh; /* El footer ocupa al menos el 10% del alto de la ventana */
+            }
+            
+            .black-image {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%; /* La imagen ocupa todo el alto del main */
+                object-fit: cover; /* Ajusta la imagen para cubrir todo el espacio sin deformarse */
+                z-index: -1;
+            }
+
+        </style>
+    </head>
+    <body style="background: url(img/piano.png); background-repeat: no-repeat; background-size: cover;">
+        <header>
+            <img style="padding: 1vh; margin: 0; position: absolute; left: 2vw; height: 100px;" src="img/violin.png">
+            <nav>
+                <ul>
+                    <li><a href="Temas.html">VOLVER</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1 style="color: rgb(216, 196, 17); text-align: center;">CANCIONES</h1>
+            <div style="text-align: justify;  padding-left: 5vw; padding-right: 5vw; font-size: 25px;">
+
+                <p>
+                    <strong>Carmina Burana - Carl Orff:</strong> Esta cantata escénica es una obra grandiosa y exuberante que combina coro, orquesta y solistas vocales. Con ritmos intensos, melodías pegadizas y letras impactantes, "Carmina Burana" es una experiencia auditiva impresionante y apasionante.
+                    es una composición musical del compositor alemán Carl Orff. La obra se basa en una colección de poemas medievales encontrados en un manuscrito llamado "Carmina Burana". 
+                </p>
+
+                <div style="text-align: center; padding: 10px">
+                    <audio controls loop>
+                        <source src="music/Carmina Burana.mp3" type="audio/mp3">
+                    </audio> 
+                </div>  
+                    
+                <p>
+                    <strong>Rapsodia húngara No. 2" - Franz Liszt:</strong>La "Rapsodia húngara No. 2" de Franz Liszt es una obra musical deslumbrante y llena de pasión. Conocida por su energía contagiosa y su virtuosismo deslumbrante, esta composición para piano solo captura la esencia del folclore húngaro. Desde sus intrincados pasajes técnicos hasta sus melodías cautivadoras, la "Rapsodia húngara No. 2" es una pieza que desafía al intérprete y emociona al oyente. Con cambios de ritmo y dinámicas dramáticas, esta obra maestra de Liszt transporta a los oyentes a un viaje musical lleno de vitalidad y emoción. Es una muestra deslumbrante del talento y la originalidad de Liszt como compositor y pianista virtuoso.
+                </p>
+
+                <div style="text-align: center; padding: 10px">
+                    <audio controls loop>
+                        <source src="music/rapsodia.mp3" type="audio/mp3">
+                    </audio> 
+                </div>  
+                
+                <p>
+                    <strong>Concierto para Violín en Re mayor - Pyotr Ilyich Tchaikovsky:</strong> Este concierto para violín es una obra maestra que combina virtuosismo técnico con una expresividad profunda.
+                    Esta composición es conocida por su belleza melódica y su emotividad apasionada. El concierto consta de tres movimientos que exhiben la virtuosidad del solista y la riqueza orquestal de Tchaikovsky. Desde su cautivadora introducción hasta los pasajes líricos y enérgicos, el "Concierto para Violín en Re mayor" 
+                </p>
+
+                <div style="text-align: center; padding: 10px">
+                    <audio controls loop>
+                        <source src="music/ViolinConcertoDMajor.mp3" type="audio/mp3">
+                    </audio> 
+                </div>  
+                
+                <p>
+                    <strong>El Danubio Azul" - Johann Strauss II:</strong> Esta es una de las valses más conocidas y amadas del compositor austriaco Johann Strauss II. "El Danubio Azul" es una pieza encantadora y evocadora que ha sido ampliamente interpretada y asociada con la música vienesa.
+                </p>
+
+                <div style="text-align: center; padding: 10px">
+                    <audio controls loop>
+                        <source src="music/ElDaubioAzul.mp3" type="audio/mp3">
+                    </audio> 
+                </div>  
+
+                <p>
+                    <strong>La Primavera" (de Las Cuatro Estaciones) - Antonio Vivaldi:</strong> 
+                    es el primer movimiento del famoso conjunto de conciertos para violín "Las Cuatro Estaciones" compuesto por Antonio Vivaldi. Esta obra maestra del Barroco es un retrato musical de la estación de la primavera. La pieza se caracteriza por sus melodías alegres y vivaces, que representan el despertar de la naturaleza y el florecimiento de la vida
+                </p>
+
+                <div style="text-align: center; padding: 10px">
+                    <audio controls loop>
+                        <source src="music/Primavera.mp3" type="audio/mp3">
+                    </audio> 
+                </div>  
+
+                <p>
+                    <strong>La "Danza del Hada de Azúcar"</strong> es una pieza musical del ballet <em>"El Cascanueces"</em>compuesta por Piotr Ilyich Tchaikovsky. Es una melodía dulce y encantadora que se encuentra en el segundo acto del ballet. La música evoca un ambiente mágico y festivo mientras el Hada de Azúcar guía a Clara a través del Reino de los Dulces. La "Danza del Hada de Azúcar" es interpretada por orquestas sinfónicas y es una de las partes más reconocidas y queridas del ballet <em>"El Cascanueces".</em>
+                </p>
+
+                <div style="text-align: center; padding: 10px">
+                    <audio controls loop>
+                        <source src="music/TheNutcracker.mp3" type="audio/mp3">
+                    </audio> 
+                </div> 
+            </div>
+
+            <img src="img/Negro.png" alt="Mi imagen" height="100%" width="38px" style="position: absolute; left: 0; top: 0;">
+        </main>
+    
+        <footer>
+            <p style="color: rgb(216, 196, 17);">&copy COPYRIGHT MUSICLASIC/2023.</p>
+        </footer>
+    </body>
+</html>
